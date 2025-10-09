@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.background{
+  border-radius: 20px;
+  width: 60rem;
+  height: 52rem;
+  object-fit: cover;
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(130, 194, 255);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.input{
+  outline: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: none;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  background-color: white;
+  color: rgb(130, 194, 255);
+}
+
+.input:focus::placeholder{
+  color: transparent;
+}
+::placeholder{
+  color: rgb(178, 214, 255);
+  font-size: 1.2rem;
+}
